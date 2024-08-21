@@ -12,13 +12,12 @@ function MainNavigation({ onSearch }) {
       <div className="container  mx-0">
         <div className="hidden items-center justify-between mx-0  md:flex md:w-full">
           <div className="flex justify-start w-1/2 ">
-            <img
-              src={mainLogo}
-              alt="PokeDex Logo"
-              draggable="false"
-              className="w-150 h-40 cursor-pointer"
+          <h1
+              className="text-3xl font-bold cursor-pointer text-white"
               onClick={handleClick}
-            />
+            >
+              PokeDex
+            </h1>
           </div>
           <div className="flex justify-end w-1/2  ">
             <SearchBar
